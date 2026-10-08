@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Project Index Recovery</title>
+  <desc id="desc">A project folder with index rows and a returning arrow.</desc>
+  <rect width="512" height="512" rx="112" fill="#111827"/>
+  <path d="M100 174a24 24 0 0 1 24-24h100l34 38h130a24 24 0 0 1 24 24v140a24 24 0 0 1-24 24H124a24 24 0 0 1-24-24Z" fill="#60A5FA"/>
+  <path d="M146 238h124M146 282h100M146 326h76" fill="none" stroke="#111827" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="350" cy="328" r="82" fill="#111827"/>
+  <path d="M384 291a50 50 0 1 1-71-2" fill="none" stroke="#5EEAD4" stroke-width="20" stroke-linecap="round"/>
+  <path d="m301 265 5 41 41-5" fill="none" stroke="#5EEAD4" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
