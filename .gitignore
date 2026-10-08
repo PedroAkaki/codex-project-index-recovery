@@ -1,0 +1,13 @@
+__pycache__/
+.test-artifacts/
+tmp*/
+*.pyc
+.venv/
+private/
+snapshots/
+work/
+*.sqlite*
+.codex-global-state.json*
+candidate-global-state.json
+auth.json
+.env*

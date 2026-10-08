@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-project-index-recovery",
+  "version": "0.2.0",
+  "license": "MIT",
+  "repository": "https://github.com/PedroAkaki/codex-project-index-recovery",
+  "homepage": "https://github.com/PedroAkaki/codex-project-index-recovery",
+  "author": {"name": "Pedro Akaki", "url": "https://github.com/PedroAkaki"},
+  "keywords": ["codex", "recovery", "projects", "sidebar", "agent-skill"],
+  "description": "Diagnose missing local Codex Desktop projects and prepare reviewed index recovery candidates. Python 3.11+ and local filesystem access required.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Codex Project Index Recovery",
+        "shortDescription": "Recover missing project index",
+        "longDescription": "Diagnose missing local Codex Desktop projects using stable private snapshots. Validate SQLite integrity and prepare a candidate for a supported empty sidebar cache. Local filesystem access and Python 3.11+ required. The bundle does not apply live repairs or close apps: the agent prepares a reviewed, version-specific executor when supported and authorized. It does not recover deleted source files or prevent outages.",
+        "developerName": "Pedro Akaki",
+        "category": "Developer Tools",
+        "websiteURL": "https://github.com/PedroAkaki/codex-project-index-recovery",
+        "supportURL": "https://github.com/PedroAkaki/codex-project-index-recovery/issues",
+        "privacyPolicyURL": "https://github.com/PedroAkaki/codex-project-index-recovery/blob/main/PRIVACY.md",
+        "capabilities": [
+          "Diagnose missing local projects",
+          "Prepare reviewed recovery candidates",
+          "Export aggregate diagnostic summaries"
+        ]
+      }
+    }
+  }
+}

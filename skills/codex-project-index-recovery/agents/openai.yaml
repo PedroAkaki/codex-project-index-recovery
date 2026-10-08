@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Project Index Recovery"
+  short_description: "Diagnose missing Codex projects safely"
+  default_prompt: "Use $codex-project-index-recovery to diagnose my missing Codex projects and prepare a reviewed recovery."
